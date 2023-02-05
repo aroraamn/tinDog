@@ -1,0 +1,270 @@
+body{
+    font-family: "Montserrat";
+    text-align:center;
+}
+h1{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: left;
+}
+ 
+h1,h2{
+    line-height: 1.5;
+}
+
+h2, h3{
+font-family: fantasy;
+}
+
+h2{
+    font-size: 2.5rem; 
+}
+
+h3{
+    font-size: 25px;
+    margin: 10px 10px;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* title */
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align:left;
+    }
+
+.title-image{
+         width: 60%;
+         margin: 1px; 
+         position: absolute; 
+         right: 30%; 
+         transform:rotate(20deg);
+    }
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/*Navigation Bar  */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+nav ul{
+    margin-left: auto;
+}
+
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.nav-item{
+    padding: 0px 18px; 
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: "Montserrat-light";
+}
+
+/* Download Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+    text-align: left;
+}
+
+
+/* features section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+     padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin: 1rem;
+
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial */
+
+#testimonials{
+    background-color: #FF9F9F;
+    text-align: center;
+    padding: 5% 12%;
+    color: #fff;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 20%;
+    margin: 20px;
+}
+
+#testimonials h2{
+    /* padding: 0 40px; */
+    /* margin: 20px 50px; */
+    font-size: 3rem;
+    font-family: fantasy;
+    text-align: center;
+
+}
+
+.btn-ctrl{
+    background-color: #FF9F9F;
+    height: 10%;
+    width: 30px;
+    border-style: none;
+    /* padding-bottom: 50%; */
+    margin-top: 18%;
+    /* position: absolute; */
+}
+
+.row{
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.carousel-control{
+    height: 10;
+}
+
+/* Press */
+#press{
+    background-color: #FF9F9F;
+    
+    color: #fff;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 50px;
+}
+
+/* pricing */
+/* .btn{
+    margin: auto;
+    max-width: max-content;
+    text-align: center;
+}
+
+#pricing{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.line-pricing{
+    text-align: center;
+    margin-top: 1.5%;
+}  */
+
+#pricing .card{
+    height:350px;
+
+}
+
+.design button{
+    margin-top: 15px;
+
+}
+.card-body button{
+     
+     width: 90%;
+}
+#pricing h2{
+    font-weight: bold;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+#pricing{
+    padding: 50px;
+    /* color: #fff; */
+    
+}
+.card-body {
+    padding: 5% 2%;
+
+}
+.card-header h3{
+    font-weight: bold;
+
+}
+
+
+.row{
+    margin-top: 60px;
+}
+
+
+#cta{
+    background-color: #ff4c68;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 7% 15%;
+    
+}
+
+.cta-button{
+    font-size: 20px;
+    
+    color: #000;
+    background-color: #fff;
+    margin-left: 25px;
+}
+
+.cta-div{
+    
+    padding: 30px;
+}
+#cta h3{
+    color: #fff;
+    margin: 30px 40px ;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* footer section*/
+#footer{
+    margin: 7% 15%;
+    
+
+}
+
+#footer p{
+    padding: 2% 5%;
+}
+.emoji{
+    padding: 2px;
+}
+@media (max-width: 994px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
